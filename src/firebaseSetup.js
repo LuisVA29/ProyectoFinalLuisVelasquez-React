@@ -7,12 +7,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCmybSioJiJdp8s6dw4yFZWZWL1OGt2Ifg",
-  authDomain: "pharmacy-lv.firebaseapp.com",
-  projectId: "pharmacy-lv",
-  storageBucket: "pharmacy-lv.appspot.com",
-  messagingSenderId: "456655066129",
-  appId: "1:456655066129:web:b8fc5b024fefc95bb04db0",
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
 };
 
 // Initialize Firebase
