@@ -1,0 +1,36 @@
+.navBar {
+  display: flex;
+  width: 60%;
+  padding: 0.4rem;
+}
+.navBar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 100%;
+}
+.navBar ul li {
+  border: solid 0.5px;
+  border-radius: 10px;
+  padding: 0.6rem;
+  transition: 200ms;
+}
+.navBar li:hover {
+  color: var(--sec-color);
+  background-color: #e2788a;
+}
+.header-nav {
+  background-color: #fde9e8;
+  border-bottom: solid;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.header-nav a {
+  margin: auto;
+}
+
+.header-nav img {
+  width: auto;
+  height: 50px;
+}
